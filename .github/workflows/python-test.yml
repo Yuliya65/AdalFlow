@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4 # Updated to the latest version
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4 # Updated to the latest version
+        uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6 # Updated to the latest version
         with:
           python-version: ${{ matrix.python-version }}
 
