@@ -37,7 +37,7 @@ jobs:
           poetry run pytest
 
       - name: Upload pytest results as an artifact (optional)
-        uses: actions/upload-artifact@v4 # Updated to the latest version
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5 # Updated to the latest version
         if: always() # Always run this step to ensure test results are saved even if previous steps fail
         with:
           name: pytest-results
