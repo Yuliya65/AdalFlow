@@ -22,7 +22,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Ensure the Python version is correct
+          python-version: '3.14' # Ensure the Python version is correct
 
       - name: Install Poetry
         run: |
