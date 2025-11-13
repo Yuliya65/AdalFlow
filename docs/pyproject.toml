@@ -50,7 +50,7 @@ torch = "^2.4.0"
 # Azure client dependencies
 azure-identity = "^1.18.0"
 azure-core = "^1.31.0"
-myst-parser = "^3.0.0"
+myst-parser = "^4.0.0"
 mcp = "^1.12.2"
 mlflow = "^3.1.4"
 
